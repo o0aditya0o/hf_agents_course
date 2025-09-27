@@ -310,3 +310,11 @@
   "report": |-
     Here is the final answer from your managed agent '{{name}}':
     {{final_answer}}
+"final_answer":
+  "template": |-
+    You have successfully completed the task. Here is your final answer:
+    {{answer}}
+  "pre_messages": |-
+    You are about to provide your final answer to the task.
+  "post_messages": |-
+    This completes the task.
